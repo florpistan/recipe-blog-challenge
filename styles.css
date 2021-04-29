@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.imagen-receta{
+  max-height: 470px !important ;
+}
+
+/* @media only screen and (min-widht: 320px) {
+  .myContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .ingredientes{
+    order: 2;
+  }
+  .yields{
+    order: 1;
+  }
+} */
