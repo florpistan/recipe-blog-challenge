@@ -13,12 +13,17 @@
       type="image/x-icon"
       href="https://devchallenges.io/"
     />
+    <!-- ** Bootstrap ** -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <!--** Material icons **-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <!-- ** My styles ** -->
     <link rel="stylesheet" href="styles.css" />
     <title>Devchallenges</title>
   </head>
@@ -47,16 +52,27 @@
         </div>
       </div>
     </main> -->
-    <div class="container">
+    <div class="container d-flex">
       <div class="row">
         <div class="col">
-          <h3 class="headline-title mt-3">Classic Cheesecake Recipe</h3>
+          <h3 class="headline-title mt-3 text-justify text-lg-justify">
+            Classic Cheesecake Recipe
+          </h3>
           <p class="sub-title">
-            <img src="6dots.svg" alt="six dots" class="mr-2 my-auto" />Look no
-            further for a creamy and ultra smooth classic cheesecake recipe!
-            Paired with a buttery graham cracker crust, no one can deny its
-            simple decadence. For the best results, bake in a water bath.
+            <img
+              src="6dots.svg"
+              alt="six dots"
+              class="mr-2 my-auto text-left"
+            />Look no further for a creamy and ultra smooth classic cheesecake
+            recipe! Paired with a buttery graham cracker crust, no one can deny
+            its simple decadence. For the best results, bake in a water bath.
           </p>
+        </div>
+      </div>
+    </div>
+    <section class="container imagen-receta d-flex justify-content-center">
+      <div class="row">
+        <div class="col">
           <img
             src="photo1.png"
             alt="cheesecake"
@@ -64,17 +80,14 @@
           />
         </div>
       </div>
-    </div>
-
-    <div class="container mt-4">
-      <div class="row flex-column-reverse flex-md-row">
+    </section>
+    <div class="container mt-4 d-flex justify-content-around max-width-lg">
+      <div class="row flex-column-reverse flex-md-row justify-content-around">
         <div class="col-12 text-center col-md-6">
           <!-- ?? Ingredientes -->
-          <h4 class="ingredients-title text-justify">Ingredients</h4>
-          <h5 class="ingredients-subtitle text-justify">
-            Graham Cracker Crust
-          </h5>
-          <div class="ingredients-list text-justify">
+          <h4 class="ingredients-title text-left">Ingredients</h4>
+          <h5 class="ingredients-subtitle text-left">Graham Cracker Crust</h5>
+          <div class="ingredients-list text-left">
             <p>
               <input type="checkbox" class="mr-1" /> 1 and 1/2 cups (150g)
               <strong>graham cracker crumbs</strong> (about 10 full sheet graham
@@ -90,8 +103,8 @@
             </p>
           </div>
 
-          <h5 class="ingredients-subtitle text-justify">Cheesecake</h5>
-          <div class="ingredients-list text-justify">
+          <h5 class="ingredients-subtitle text-left">Cheesecake</h5>
+          <div class="ingredients-list text-left">
             <p>
               <input type="checkbox" class="mr-1" /> four 8-ounce blocks (904g)
               full-fat <strong>cream cheese</strong>, softened to room
@@ -109,10 +122,81 @@
               <input type="checkbox" class="mr-1" />1 teaspoon
               <strong>pure vanilla extract</strong>
             </p>
+            <p>
+              <input type="checkbox" class="mr-1" />2 teaspoons
+              <strong>fresh lemon juice</strong> (optional, but recommended)
+            </p>
+            <p>
+              <input type="checkbox" class="mr-1" />3 large
+              <strong>eggs</strong> , at room temperature
+            </p>
+            <p>
+              <input type="checkbox" class="mr-1" />topping suggestions:
+              <span class="topic-suggestions">
+                salted caramel, lemon curd, strawberry topping, chocolate
+                ganache, red wine chocolate ganache, fresh fruit, whipped cream,
+                or raspberry sauce (recipe in notes)
+              </span>
+            </p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 pl-0">
+                <!-- ??Instrucciones -->
+                <h4 class="ingredients-title text-left">Instructions</h4>
+                <div class="ingredients-list">
+                  <p class="text-left">
+                    <span class="material-icons number-icon">
+                      looks_one
+                      </span>
+                  </p>
+                  <p class="text-left">
+                    <span class="material-icons number-icon">
+                      looks_two
+                      </span>
+                  </p>
+                  <p class="text-left">
+                    <span class="material-icons number-icon">
+                      looks_3
+                      </span>
+                  </p>
+                  <p class="text-left">
+                    <span class="material-icons number-icon">
+                      looks_4
+                      </span>
+                  </p>
+                  <p class="text-left">
+                    <span class="material-icons number-icon">
+                      looks_5
+                      </span>
+                  </p>
+                  <p class="text-left">
+                    <span class="material-icons number-icon">
+                      looks_6
+                      </span>
+                  </p>
+                  <p class="text-left">
+                    <span class="material-icons number-icon">
+                      filter_7
+                      </span>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <!-- ?? Porciones -->
-        <div class="col-12 text-center col-md-6 porciones-card">
+        <div
+          class="
+            col-12
+            text-center
+            col-md-6
+            porciones-card
+            d-flex
+            justify-content-around
+            align-items-center
+          "
+        >
           <div class="porciones-list">
             <div class="d-md-flex justify-content-center align-items-center">
               <p class="d-inline">
