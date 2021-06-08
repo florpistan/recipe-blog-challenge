@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
   box-sizing: border-box;
@@ -10,13 +10,13 @@
 }
 
 .headline-title {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 48px;
   line-height: 63, 98px;
 }
 .sub-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 17, 07px;
   font-weight: 500;
@@ -27,14 +27,14 @@
 }
 
 .ingredients-title {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 31, 99px;
   color: #333333;
 }
 .ingredients-subtitle {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-style: italic;
   font-size: 18px;
@@ -43,15 +43,14 @@
 }
 
 .ingredients-list {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
 }
 
-
-.topic-suggestions{
-  font-family: "Montserrat", sans-serif;
+.topic-suggestions {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-style: italic;
   font-size: 16px;
@@ -59,13 +58,22 @@
   color: #333333;
 }
 
-/* p .d-inline-block {
-  height: 40px;
-} */
+.number-icon {
+  color: #f2994a;
+  font-size: 36px;
+  position: relative !important ;
+  top: 11px !important;
+}
 
-.number-icon{
-  color: #F2994A;
-  /* font-size: 36px; */
+.utensils {
+  color: #f2994a;
+}
+
+.servings {
+  color: #f2994a;
+}
+.small-title {
+  color: #bdbdbd;
 }
 
 @media only screen and (min-width: 768px) {
@@ -75,7 +83,16 @@
     max-height: 376px;
     min-width: 216px;
     max-width: 216px;
-    box-shadow: 0px 0px 20px 0px #0000001A;
+    box-shadow: 0px 0px 20px 0px #0000001a;
+  }
+  .small-title {
+    font-size: 10px;
+  }
+  .small-subtitle {
+    font-size: 14px;
+  }
+  .iconos {
+    font-size: 29px !important;
   }
 }
 
